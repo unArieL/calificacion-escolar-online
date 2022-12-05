@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/mainStyle.css">
-    <title>Model's List</title>
+    <base href="/">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/alumnoLogin.css">
+    <title>Alumno - Login</title>
 </head>
 <body>
-    <form action="" method="post">
-        <label for="">DNI</label>
-        <label for="">CONTRASEÑA</label>
-    </form>
+    <header>
+        <img id="escudo-header" src="images/escudokrausesolo.png" alt="escudo-krause">
+    </header>
+    <section>
+        <form action="" method="">
+            <label for="dni">DNI</label>
+            <input type="number" name="dni" id="dni">
+            <label for="password">CONTRASEÑA</label>
+            <input type="text" name="password" id="password">
+            <input class="button" type="submit" value="ACEPTAR">
+            <input class="button" id="btn-back" type="button" value="ATRAS">
+        </form>
+    </section>
+    <script src="js/alumnoLoginScript.js"></script>
 </body>
 </html>
