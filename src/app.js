@@ -19,7 +19,7 @@ app.get('/', function(req, res) {
 //app.use('/', mainRouter)
 app.use('/alumno', alumnoRouter)
 
-ghpages.publish('src', {add: true})
+ghpages.publish('src', {add: true}, {})
 
 app.listen(portListen , () => {
     console.log(`Server on port 3000`);
